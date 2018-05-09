@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        >
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111"
+            android:textColor="#fe6d01"
+            />
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="111111"
+            />
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/shoplist_slv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+        android:layout_alignParentRight="true"
+        fresco:roundAsCircle="true"
+        />
+</RelativeLayout>

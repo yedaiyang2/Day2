@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.RegActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#de1d5a"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:id="@+id/reg_ed_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入手机号"
+        />
+    <EditText
+        android:id="@+id/reg_ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/reg_tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:text="已有账号，立即登录"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/reg_bt_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="立即注册"
+        />
+</LinearLayout>
